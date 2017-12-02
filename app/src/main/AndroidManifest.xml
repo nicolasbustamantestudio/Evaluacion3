@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cl.inacap.parenas.evaluacion2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity">
+        </activity>
+        <activity android:name=".ClientActivity">
+        </activity>
+        <activity android:name=".EnterOrderActivity">
+        </activity>
+        <activity android:name=".DeliverOrderActivity">
+        </activity>
+        <activity android:name=".ProductListActivity">
+        </activity>
+        <activity android:name=".AddClientActivity">
+        </activity>
+        <activity android:name=".ModifyClientActivity">
+        </activity>
+        <activity android:name=".EditClientActivity">
+        </activity>
+        <activity android:name=".ProductActivity">
+        </activity>
+        <activity android:name=".OrderDetailsActivity">
+        </activity>
+        <activity android:name=".OrdersMenuActivity">
+        </activity>
+        <activity android:name=".BalanceActivity">
+        </activity>
+        <activity android:name=".DeliveredOrders">
+        </activity>
+        <activity android:name=".NotDeliveredOrdersActivity">
+        </activity>
+    </application>
+
+</manifest>

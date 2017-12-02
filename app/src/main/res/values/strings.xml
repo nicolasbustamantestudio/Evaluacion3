@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Evaluacion 2</string>
+    <string-array name="menuItems">
+        <item>Administración de clientes</item>
+        <item>Ingresar pedido</item>
+        <item>Ver pedidos</item>
+        <item>Salir</item>
+    </string-array>
+    <string-array name="clientOptions">
+        <item>Crear cliente</item>
+        <item>Modificar cliente</item>
+        <item>Volver</item>
+    </string-array>
+    <string-array name="orderOptions">
+        <item>Órdenes sin entregar</item>
+        <item>Órdenes entregadas</item>
+        <item>Balance</item>
+        <item>Volver</item>
+    </string-array>
+</resources>
